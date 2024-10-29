@@ -19,6 +19,12 @@ def generate_meow_id():
     return f"NW{index:03}"
 
 
+# Testing print table
+
+def print_table():
+    return f"{"ID":10}"
+
+
 # Function to add new meow
 
 
