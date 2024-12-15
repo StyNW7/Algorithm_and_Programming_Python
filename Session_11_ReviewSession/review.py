@@ -8,9 +8,9 @@ car_list = []
 
 # Read File
 
-# if os.path.exists(file_name):
+if os.path.exists(file_name): # if we want to create a new file
 
-if (file_name):
+# if (file_name):
     with open(file_name, 'r') as file:
 
         # Read all lines
