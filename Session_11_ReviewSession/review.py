@@ -119,7 +119,8 @@ def view_cars():
         print("There's no car available.")
         return
     
-    sorted_cars = sorted(car_list, key=lambda x: x["year"])
+    # sorted_cars = sorted(car_list, key=lambda x: x["year"])
+    sorted_cars = car_list.sort(key=lambda x: x["year"])
     print("\nList of Cars:")
 
     # for idx, car in enumerate(sorted_cars, 1):
